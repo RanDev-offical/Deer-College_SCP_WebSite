@@ -1,0 +1,22 @@
+#title{
+    background-color:rgba(11, 97, 164, 1);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:100%;
+    height:9%;
+    position: absolute;
+    font-weight:400;
+    border:2px black solid;
+
+}
+
+<img id="image1" src="images/image 1.png" alt="GOC logo">
+
+background-image: url(fon.png);
+background-attachment: fixed;
+
+width: 48%;
+height:280px;
