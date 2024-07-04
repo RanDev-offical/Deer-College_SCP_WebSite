@@ -1,4 +1,5 @@
 
+
 #navigation{
     display:flex;
     justify-content: flex-start;
@@ -64,6 +65,8 @@
 
 #baza{
     background-color:GhostWhite;
+    max-width:820px;
+    max-height:1000px;
 }
 
 #line{
@@ -85,6 +88,10 @@
     border:2px solid gray;
     margin: 6px;
     justify-content: center;
+    animation-name:two_anim;
+    animation-duration:5s;
+    animation-delay:1;
+    animation-timing-function: ease-out;
 }
 
 #one{
@@ -94,6 +101,10 @@
     height:280px;
     margin:6px;
     justify-content: center;
+    animation-name:one_anim;
+    animation-duration:5s;
+    animation-delay:1;
+    animation-timing-function: ease-out;
 }
 
 #contacts{
@@ -112,6 +123,10 @@
     width: 48%;
     height:280px;
     justify-content: center;
+    animation-name:three_anim;
+    animation-duration:5s;
+    animation-delay:1;
+    animation-timing-function: ease-out;
 }
 
 #license{
@@ -303,6 +318,72 @@ article #join_panel{
 #rules_panel h2{
     font-family: monospace;
 }
+
+@keyframes three_anim{
+    0%{
+      display:none;
+      transform:translateX(-300px);
+    }
+
+    50%{
+    display:block;
+    transform:translateX(-100px);
+    }
+
+    100%{
+        transform:translateX(90px);
+    }
+ }
+
+    @keyframes two_anim{
+        0%{
+          display:none;
+          transform:translateX(-300px);
+        }
+    
+        50%{
+        display:block;
+        transform:translateX(-100px);
+        }
+    
+        100%{
+            transform:translateX(90px);
+        }
+    }
+
+    @keyframes one_anim{
+        0%{
+          display:none;
+          transform:translateX(-300px);
+        }
+    
+        50%{
+        display:block;
+        transform:translateX(-100px);
+        }
+    
+        100%{
+            transform:translateX(90px);
+        }
+    }
+
+   #photo>h1{
+       position:sticky;
+    }
+
+   #subtitle>h1{
+     position:sticky;
+   } 
+
+   #contacts>h1{
+     position:sticky;
+   }
+
+
+
+
+
+
 
 
 
